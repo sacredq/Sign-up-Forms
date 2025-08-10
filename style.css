@@ -1,0 +1,63 @@
+.set_color{
+    color: black;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.display_box{
+    margin-left: auto; margin-right: auto;
+    background: #f4f7f8;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 25%;
+}
+
+h2{
+    text-align: center;
+    color: rgb(53, 53, 63); font-weight: bold;
+}
+
+.number{
+    margin-bottom: 20px;
+    display: inline-flex; align-items: center;
+    gap: 10px; font-weight: bold;
+    
+}
+
+.number:before{
+    content: "1";
+    display: flex; justify-content: center; align-items: center;
+    width: 25px;  height: 25px; border-radius: 100%;
+    color: black; background-color: rgb(73, 197, 73); font-size: 18px;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px;
+    gap: 10px;
+}
+
+.number#nd2:before{
+    content: "2";
+    display: flex; justify-content: center; align-items: center;
+    width: 25px;  height: 25px; border-radius: 100%;
+    color: black; background-color: rgb(73, 197, 73); font-size: 18px;
+}
+
+textarea{
+    background: rgba(255,255,255,0.1);
+    min-height: 80px;
+}
+
+button{
+    margin-top: 20px;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 15px;
+    background-color: rgb(73, 197, 73); color: white; font-size: 20px;
+}
+
+.button{
+    display: flex;  justify-content: center; align-items: center;
+} 

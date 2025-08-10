@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms 2</title>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body class = "set_color">
+        <div class = "display_box">
+            <h2>Sign up!</h2>
+            <form action = "submit" method = "post">
+                <div class = "conteiner">
+                    <div class="number">Your basics info</div>
+
+                    <label for = "Name">Name</label>
+                    <input type = "text" id = "Name" name = "Name">
+
+                    <label for = "Email">Email</label>
+                    <input type = "email" id = "Email" name = "Email">
+
+                    <label for = "Password">Password</label>
+                    <input type = "password" id = "Password" name = "Password">
+
+                    <label>Age:</label>
+
+                    <label>
+                        <input type = "radio" id = "under_13" name = "age" value = "under_13">
+                        Under 13
+                    </label>
+
+                    <label>
+                        <input type = "radio" id = "over_13" name = "age" value = "over_13">
+                        Over 13
+                    </label>
+
+                    <div class = "number" id = "nd2">Your Profile</div>
+
+                    <label for = "textarea">Bio:</label>
+                    <textarea id = "textarea" name = "text"></textarea>
+
+                    <label for = "Jobs">Job Role:</label>
+                    <select id = "Jobs" name = "Jobs">
+                        <option value = "Frontend">Frontend</option>
+                        <option value = "Backend">Backend</option>
+                        <option value = "SoftWare Development">SoftWare Development</option>
+                        <option value = "Full_Stack">FullStack</option>
+                    </select>
+
+                    <label>Interests:</label>
+                    <label>Development
+                    <input type = "checkbox" id = "Development" name = "Development" value = "Development"> </label>
+                    
+
+                    <label>Design
+                    <input type = "checkbox" id = "Design" name = "Design" value = "Design"> </label>
+
+                    <label>Business
+                    <input type = "checkbox" id = "Business" name = "Business" value = "Business"> </label>
+                    <button type="submit">Sign Up</button>
+                </div>
+
+                
+            </form>
+        </div>
+    </body>
+</html> 
